@@ -5,8 +5,10 @@
 public
 bin
 obj
+build 
 
 *package-lock.json
+.env
 
 ### Node ###
 # Logs
