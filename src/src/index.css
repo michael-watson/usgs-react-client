@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+#leftColumn {
+  width: 30%;
+  height: 100vh;
+  float: left;
+  overflow: scroll;
+}
+#rightColumn {
+  width: 67%;
+  height: 100vh;
+  padding-right: 10px;
+  float: right;
+  overflow: scroll;
+}
+#dataContainer {
+  padding: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+#container {
+  padding: 8px;
+  background: white;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+.verticalFlex {
+  flex-direction: column;
+}
